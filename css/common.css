@@ -1,0 +1,376 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+        url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+        url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fr .icomoon {
+    font-family: "icomoon";
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.style-red {
+    color: red;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.space {
+    width: 1px;
+    height: 13px;
+    background-color: #666;
+    margin: 9px 13px 0px;
+}
+
+.header {
+    position: relative;
+    height: 103px;
+}
+.second_menu{
+    display: none;
+    position: absolute;
+    left: 640px;
+    top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.second_menu ul{
+    margin-top: 5px;
+}
+.second_menu li{
+    float: left;
+    padding-left: 10px;
+}
+.logo {
+    position: absolute;
+    overflow: hidden;
+    width: 175px;
+    height: 56px;
+    top: 25px;
+    left: 0;
+    font-size: 0px;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 270px;
+}
+
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+    color: #ccc;
+}
+
+.btnn {
+    float: right;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hotwrods {
+    position: absolute;
+    top: 65px;
+    left: 270px;
+}
+
+.hotwrods a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f1f1f1;
+    line-height: 34px;
+    text-align: center;
+}
+
+.car {
+    padding-right: 10px;
+    font-family: "icomoon";
+    color: red;
+}
+
+.arrow {
+    font-family: "icomoon";
+    padding-left: 10px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    /* 文字要靠右排列 */
+    left: 100px;
+    height: 14px;
+    line-height: 14px;
+    color: white;
+    background-color: red;
+    padding: 0 3px;
+    /* border-radius: 左下角 右上角 右下 左下; */
+    border-radius: 7px 7px 7px 0px;
+}
+
+nav {
+    height: 45px;
+    border-bottom: 2px solid red;
+}
+
+.nav_main {
+    width: 209px;
+    height: 45px;
+}
+
+.nav_main .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.nav_main .dd {
+    width: 100%;
+    height: 495px;
+    background-color: #c81623;
+    margin-top: 2px;
+
+}
+.menu_li{
+    transition: all 0.5s;
+}
+.menu_li:hover{
+    padding-left: 20px;
+}
+.menu_li {
+    height: 31px;
+    line-height: 31px;
+    padding: 0 10px;
+    margin-left: 1px;
+    color: white;
+}
+
+.menu_li a {
+    color: white;
+    font-size: 14px;
+}
+
+.menu_li .icomoon {
+    font-family: "icomoon";
+    font-size: 18px;
+}
+
+.menu_li:hover {
+    background-color: #fff;
+}
+
+.menu_li:hover a {
+    color: #c81623;
+}
+
+.nav_let {
+    margin-left: 10px;
+}
+
+.left_menu {
+    float: left;
+}
+
+.left_menu a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.mod_service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+
+.mod_service_zheng {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -253px -3px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.zheng_text {
+    float: left;
+    margin-left: 10px;
+}
+
+.zheng_text h3 {
+    margin: 5px 0;
+}
+
+.mod_service_ji {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -254px -53px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.ji_text {
+    float: left;
+    margin-left: 10px;
+}
+
+.ji_text h3 {
+    margin: 5px 0;
+}
+
+.mod_service_wu {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -256px -105px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.wu_text {
+    float: left;
+    margin-left: 10px;
+}
+
+.wu_text h3 {
+    margin: 5px 0;
+}
+
+.mod_service_te {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -257px -156px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.te_text {
+    float: left;
+    margin-left: 10px;
+}
+
+.te_text h3 {
+    margin: 5px 0;
+}
+
+.mod_service_help {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -256px -208px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.help_text {
+    float: left;
+    margin-left: 10px;
+}
+
+.help_text h3 {
+    margin: 5px 0;
+}
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+.help_list{
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+.help_list dt{
+    height: 25px;
+    font-size: 16px;
+    color: #333333;
+}
+.help_list dd{
+    height: 20px;
+}
+.help_list-app{
+    text-align: center;
+}
+.help_list-app img{
+    margin: 7px 0;
+}
+.mod_copyright{
+    text-align: center;
+}
+.mod_copyright_link{
+    margin-bottom: 15px;
+}
+.mod_copyright_link p a{
+    
+    padding: 0 15px;
+}

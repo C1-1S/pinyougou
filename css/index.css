@@ -1,0 +1,580 @@
+.main {
+    width: 980px;
+    height: 485px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.main_p {
+    width: 720px;
+    height: 485px;
+    position: relative;
+}
+
+.mani_menu {
+    width: 250px;
+    height: 485px;
+}
+
+.btn_l,
+.btn_r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .3);
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-family: "icomoon";
+    font-size: 18px;
+}
+
+.btn_r {
+    right: 0;
+}
+
+.corust {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.corust li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    /* background: ; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: pink;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 262px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.lifeservice p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.service_ico_feiji {
+    background-position: -79px -16px;
+}
+
+.service_ico_move {
+    background-position: -141px -18px;
+}
+
+.service_ico_game {
+    background-position: -206px -18px;
+}
+
+.service_ico_caipiao {
+    background-position: -17px -87px;
+}
+
+.service_ico_jiayou {
+    background-position: -78px -87px;
+}
+
+.service_ico_hotel {
+    background-position: -141px -88px;
+}
+
+.service_ico_huoche {
+    background-position: -207px -87px;
+}
+
+.service_ico_money {
+    background-position: -17px -159px;
+}
+
+.service_ico_licai {
+    background-position: -79px -159px;
+}
+
+.service_ico_lipinka {
+    background-position: -140px -159px;
+}
+
+.service_ico_baitiao {
+    background-position: -206px -159px;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.hd {
+    height: 23px;
+    border-bottom: 1px dotted black;
+}
+
+.hd-l,
+.hd-r {
+    color: black;
+    font-family: "icomoon";
+
+}
+
+.hd-l {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.hd-r a {
+    color: black;
+}
+
+.bd li {
+    padding: 4px 2px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.recommend img{
+    transition: all 0.5s;
+}
+.recommend img:hover{
+    padding-top: 10px;
+}
+.recommend {
+    height: 164px;
+    margin-top: 15px;
+    
+}
+
+.recom_title {
+    width: 200px;
+    height: 164px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom_title img{
+    margin: 30px 0 10px 0;
+}
+.recom_title h3{
+    font-size: 18px;
+    color: #fff;
+}
+.recom_bd {
+    width: 1000px;
+    height: 164px;
+    background-color: #ebebeb;
+}
+.recom_bd li{
+   
+    float: left;
+    width: 249px;
+    height: 144px;
+    border-right: 1px solid #dddddd;
+}
+.recom_none{
+    border: none;
+}
+.love{
+    margin-top: 10px;
+    font-family: "icomoon";
+    font-size: 20px;
+    color: black;
+}
+.shuaxin{
+    font-size: 10px;
+    font-family: "icomoon";
+}
+.hobby img{
+    transition: all 0.5s;
+}
+.hobby img:hover{
+    padding-left: 20px;
+}
+.hobby{
+    height: 232px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.hobby li a{
+    float: left;
+    display: block;
+    width: 197px;
+    height: 232px;
+}
+.hobby li p{
+    line-height: 20px;
+}
+.hobby_money{
+    color: red;
+    margin-right: 45px;
+}
+.chuanbo{
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+.zawu img{
+    transition: all 0.5s;
+}
+.zawu img:hover{
+    padding-top: 10px;
+}
+.zawu{
+    height: 405px;
+    position: relative;
+    overflow: hidden;
+}
+.zawu_pic{
+    width: 404px;
+    height: 405px;
+}
+.zawu_good{
+    width: 229px;
+    height: 405px;
+    position: absolute;
+    left: 405px;
+    top: 0;
+    text-align: center;
+}
+.zawu_good a img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.zawu_good h3{
+    border-bottom: 1px solid #ccc;
+    margin: 3px 5px;
+}
+.zawu_pinpai{
+    width: 405px;
+    height: 405px;
+    background-color: #f7f7f7;
+    position: absolute;
+    right: 160px;
+    top: 0;
+    text-align: center;
+}
+.zawu_pinpai h3{
+    border-bottom: 1px solid #ccc;
+    margin: 3px 5px;
+    
+}
+.zawu_pinpai a img{
+    margin-bottom: 13px;
+}
+.zawu_show{
+    width: 163px;
+    height: 405px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.zawu_show li{
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 1px;
+    margin-left: 3px;
+}
+.jiadian_title{
+    margin-top: 20px;
+    border-bottom: 4px solid red;
+}
+.jiadian_title h3{
+    display: inline;
+    font-size: 18px;
+    color: red;
+    line-height: 10px;
+}
+.jiadian_title li{
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #999999;
+    line-height: 10px;
+}
+.jiadian img{
+    transition: all 0.5s;
+}
+.jiadian img:hover{
+    padding-left: 10px;
+}
+.jiadian{
+    height: 360px;
+    position: relative;
+}
+.jiadian_fr{
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.jiadian_fr li{
+    float: left;
+    padding: 12px 23px;
+}
+.jiadian_fr li a{
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.jiadian_se{
+    width: 320px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+.jiadian_th{
+    width: 219px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+}
+.jiadian_fo{
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 220px;
+}
+.jiadian_fi{
+    float: right;
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.introduce img{
+    transition: all 0.5s;
+
+}
+.introduce img:hover{
+    padding-top: 5px;
+}
+.introduce{
+    margin-top: 20px;
+    height: 63px;
+    background-color: #f7f7f7;
+}
+.introduce li{
+    float: left;
+    border-right: 1px dashed #cccccc;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.phone_title{
+    margin-top: 20px;
+    border-bottom: 4px solid red;
+}
+.phone_title h3{
+    display: inline;
+    font-size: 18px;
+    color: red;
+    line-height: 10px;
+}
+.phone_title li{
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #999999;
+    line-height: 10px;
+}
+.phone img{
+    transition: all 0.5s;
+}
+.phone img:hover{
+    padding-left: 10px;
+}
+.phone{
+    height: 357px;
+    position: relative;
+}
+.phone_fr{
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.phone_fr li{
+    float: left;
+    padding: 12px 23px;
+}
+.phone_fr li a{
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.phone_se{
+    width: 320px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+.phone_th{
+    width: 219px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+}
+.phone_fo{
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 220px;
+}
+.phone_fi{
+    float: right;
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.computer_title{
+    margin-top: 20px;
+    border-bottom: 4px solid red;
+}
+.computer_title h3{
+    display: inline;
+    font-size: 18px;
+    color: red;
+    line-height: 10px;
+}
+.computer_title li{
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #999999;
+    line-height: 10px;
+}
+.computer img{
+    transition: all 0.5s;
+}
+.computer img:hover{
+    padding-left: 10px;
+}
+.computer{
+    height: 357px;
+    position: relative;
+}
+.computer_fr{
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.computer_fr li{
+    float: left;
+    padding: 12px 23px;
+}
+.computer_fr li a{
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.computer_se{
+    width: 320px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+.computer_th{
+    width: 219px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    text-align: center;
+    border-right: 1px solid #ededed;
+}
+.computer_fo{
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 220px;
+}
+.computer_fi{
+    float: right;
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.navigation{
+    position: fixed;
+    top: 190px;
+    left: 260px;
+    width: 66px;
+    height: 342px;
+}
+.navigation li{
+    font-size: 12px;
+    padding: 5px 9px;
+    border-bottom: 1px solid #ededed;
+}
+.navigation li a{
+    color: black;
+}
+.third_menu{
+    position: absolute;
+    left: 930px;
+    display: none;
+}
+.go_top{
+    background-color: purple;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 220px;
+}

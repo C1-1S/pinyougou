@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#my_py").hover(function(){
+      $(".second_menu").css("display","block");
+      },function(){
+      $(".second_menu").css("display","none");
+    });
+  });
+  $(document).ready(function(){
+    $("#follow").hover(function(){
+      $(".third_menu").css("display","block");
+      },function(){
+      $(".third_menu").css("display","none");
+    });
+  });
