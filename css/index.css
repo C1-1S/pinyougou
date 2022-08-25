@@ -6,11 +6,20 @@
 }
 
 .main_p {
-    width: 720px;
+    width: 730px;
     height: 485px;
     position: relative;
+    overflow: hidden;
 }
-
+.main_p ul{
+    width: 700%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main_p ul li{
+    float: left;
+}
 .mani_menu {
     width: 250px;
     height: 485px;
@@ -18,6 +27,7 @@
 
 .btn_l,
 .btn_r {
+    display: none;
     position: absolute;
     top: 50%;
     margin-top: -20px;
@@ -29,6 +39,7 @@
     line-height: 40px;
     font-family: "icomoon";
     font-size: 18px;
+    z-index: 2;
 }
 
 .btn_r {
@@ -53,7 +64,7 @@
 }
 
 .active {
-    background-color: pink;
+    background-color: red;
 }
 
 .news {
@@ -551,11 +562,13 @@
     right: 0px;
 }
 .navigation{
-    position: fixed;
-    top: 190px;
+    position: absolute;
+    top: 210px;
     left: 260px;
     width: 66px;
-    height: 342px;
+    height: 320px;
+    z-index: 3;
+    background-color: #fff;
 }
 .navigation li{
     font-size: 12px;
@@ -565,16 +578,16 @@
 .navigation li a{
     color: black;
 }
-.third_menu{
+.thirdMenu{
     position: absolute;
-    left: 930px;
+    left: 920px;
     display: none;
 }
-.go_top{
-    background-color: purple;
-    height: 30px;
-    text-align: center;
-    position: fixed;
-    right: 0;
-    top: 220px;
+.goBack{
+    display: none;
+    
+}
+.goBack a{
+    font-weight: bold;
+    font-size: 12px;
 }

@@ -10,13 +10,12 @@
         content="品优购.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
     <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/banner.css">
-    <script src="../js/jquery-1.12.4.js"></script>
-    <script src="../js/index.js"></script>
-    <script src="../js/banner.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="js/animate.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -26,14 +25,14 @@
             <div class="fl">
                 <ul>
                     <li>品优购欢迎您！</li>
-                    <li><a href="#">请登录</a> <a href="#" class="style-red">免费注册</a></li>
+                    <li><a href="login.html">请登录</a> <a href="register.html" class="style-red">免费注册</a></li>
                 </ul>
             </div>
             <div class="fr">
                 <ul>
                     <li><a href="#">我的订单</a></li>
                     <li class="space"></li>
-                    <li id="my_py">
+                    <li class="mypyg">
                         <a href="#">我的品优购</a>
                         <i class="icomoon"></i>
                     </li>
@@ -42,7 +41,7 @@
                     <li class="space"></li>
                     <li><a href="#">企业采购</a></li>
                     <li class="space"></li>
-                    <li id="follow">
+                    <li class="follow">
                         <a href="#">关注作者大大</a>
                         <i class="icomoon"></i>
                     </li>
@@ -82,12 +81,12 @@
             <a href="#">通信</a>
         </div>
         <div class="shopcar">
-            <i class="car"></i><a href="#">我的购物车</a><i class="arrow"></i>
+            <i class="car"></i><a href="cart.html">我的购物车</a><i class="arrow"></i>
             <i class="count">
                 8
             </i>
         </div>
-        <div class="second_menu">
+        <div class="secondMenu">
             <ul>
                 <li><a href="#">待处理订单</a></li>
                 <li><a href="#">我的问答</a></li>
@@ -96,6 +95,7 @@
                 <li><a href="#">降价商品</a></li>
             </ul>
             <br>
+            <br>
             <ul>
                 <li><a href="#">我的京豆</a></li>
                 <li><a href="#">我的优惠卷</a></li>
@@ -103,7 +103,7 @@
                 <li><a href="#">我的理财</a></li>
             </ul>
         </div>
-        <div class="third_menu">
+        <div class="thirdMenu">
             <img src="./images/ewm.jpg" alt="">
         </div>
     </div>
@@ -117,17 +117,15 @@
             <li><a href="">运动户外</a></li>
             <li><a href="">汽车用品</a></li>
             <li><a href="">食品酒类</a></li>
+            <li class="goBack"><a href="#shortcut">返回顶部</a></li>
             <li><a href="">医药保健</a></li>
             <li><a href="">图书音像</a></li>
             <li><a href="">金融彩票</a></li>
         </ul>
     </div>
-    <div class="go_top">
-       <a href="#shortcut"> <img src="./uploads/top.png" alt=""></a>
-    </div>
     <!-- 头部 end -->
     <!-- nav star -->
-    <nav>
+    <nav class="nav">
         <div class="w">
             <div class="nav_main fl">
                 <div class="dt">
@@ -137,9 +135,9 @@
                     <ul>
                         <li class="menu_li"><a href="#">家用电器</a> <i class="fr icomoon"></i></li>
                         <li class="menu_li">
-                            <a href="#">手机、</a>
-                            <a href="#">数码、</a>
-                            <a href="#">通信</a>
+                            <a href="list.html">手机、</a>
+                            <a href="list.html">数码、</a>
+                            <a href="list.html">通信</a>
                             <i class="fr icomoon"></i>
                         </li>
                         <li class="menu_li">
@@ -249,19 +247,21 @@
 
     <div class="w">
         <div class="main">
-            <div class="main_p fl">
-                <a href="#" class="btn_l">  </a>
-                <a href="#" class="btn_r">  </a>
+            <div class="main_p fl" id="app">
+                <!-- 左侧按钮 -->
+                <a href="javascript:;" class="btn_l">  </a>
+                <!-- 右侧按钮 -->
+                <a href="javascript:;" class="btn_r">  </a>
+                <!-- 轮播图核心 -->
                 <ul>
-                    <li><a href=""><img src="./uploads/foucs.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./uploads/05.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./uploads/02.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./uploads/03.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./uploads/04.jpg" alt=""></a></li>
+                    
                 </ul>
                 <ol class="corust">
-                    <li></li>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    
                 </ol>
             </div>
             <div class="mani_menu fr">
@@ -453,8 +453,8 @@
             </div>
             <div class="zawu_good">
                 <h3><a href="#">好东西</a></h3>
-                <a href="#" ><img src="./uploads/interest02.png" alt=""></a>
-                <a href="#"> <img src="./uploads/interest03.png" alt="" ></a>
+                <a href="#"><img src="./uploads/interest02.png" alt=""></a>
+                <a href="#"> <img src="./uploads/interest03.png" alt=""></a>
             </div>
             <div class="zawu_pinpai">
                 <h3><a href="#">品牌街</a></h3>
@@ -831,6 +831,41 @@
         </div>
     </footer>
     <!-- 尾部结束 -->
+    <script>
+        
+        // var pyg = document.querySelector('.mypyg');
+        // var secondMenu = document.querySelector('.secondMenu');
+        // var follow = document.querySelector('.follow');
+        // var thirdMenu =document.querySelector('.thirdMenu');
+        // var dd = document.querySelector('.dd')
+        // var navigation = document.querySelector('.navigation')
+        // var goBack = document.querySelector('.goBack')
+        // var ddTop =dd.offsetTop;
+        // pyg.addEventListener('mouseenter', function(){
+        //     secondMenu.style.display='block'
+        // });
+        // pyg.addEventListener('mouseleave', function(){
+        //     secondMenu.style.display='none'
+        // });
+        // follow.addEventListener('mouseenter', function(){
+        //     thirdMenu.style.display='block'
+        // });
+        // follow.addEventListener('mouseleave', function(){
+        //     thirdMenu.style.display='none'
+        // })
+        // document.addEventListener('scroll', function(){
+        //     // console.log(window.pageYOffset); 184
+        //     if(window.pageYOffset >= ddTop){
+        //         navigation.style.position='fixed';
+        //         goBack.style.display='block';
+        //         navigation.style.top = 110+ 'px';
+        //     }else{
+        //         navigation.style.position ='absolute';
+        //         goBack.style.display='none';
+        //         navigation.style.top = 210 + 'px';
+        //     }
+        // })
+    </script>
 </body>
 
 </html>
